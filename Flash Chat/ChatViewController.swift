@@ -16,7 +16,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     // Declare instance variables here
     var messageArray : [Message] = [Message]()
-    let DB_URL = "mongodb://47.92.218.78:27017"
+    let DB_URL = "mongodb://localhost:27017"
     let DB_NAME = "myDB"
     let DB_COLLECTION = "messages"
     
